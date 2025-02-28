@@ -33,3 +33,13 @@ export const register=async(req ,res)=>{
     }
 }
 
+
+export const login=async(req , res)=>{
+    try {
+        
+    } catch (error) {
+        console.log(error)
+        return res.status(500).json({message:"Failed to login user"})
+        
+    }
+}
